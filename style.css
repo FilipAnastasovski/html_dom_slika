@@ -1,0 +1,520 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+div{
+    box-sizing: border-box;
+}
+html,body{
+    height: 100% ;
+}
+
+.main-container{
+    width: 100%;
+    height: 100%;
+
+    border: 3px solid black;
+
+    margin: 40px auto;
+}
+
+/* colors */
+
+.green{
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.black{
+    background-color: black;
+}
+
+/* glavnite 2 containers */
+.container-levo{
+    width: 90%;
+    height: 100%;
+
+    float: left;
+
+    border-width: 0 10px 0 0;
+    border-style: solid;
+    border-color: black;
+}
+
+.container-desno{
+    height: 100%;
+    width: 10%;
+    float: right;
+
+}
+
+/* najdesno container so 2-te deca */
+
+.container-desno > div:nth-child(1){
+    height: 70%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+}
+
+.container-desno > div:nth-child(2){
+    height: 30%;
+    border-width: 10px 0 0 0;
+    border-style: solid;
+    border-color: black;
+}
+
+
+/* od levata strana   */
+
+.container-levo-gore{
+
+    width: 100%;
+    height: 10%;
+
+    float: top;
+
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.container-levo-dole{
+
+    width: 100%;
+    height: 90%;
+
+    float: bottom;
+
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* gornite 3 od levata strana */
+
+.container-levo-gore > div:nth-child(1){
+
+    float: left;
+
+    height: 100%;
+    width: 33%;
+    border-width: 0 10px 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.container-levo-gore > div:nth-child(2){
+
+    float: left;
+
+    height: 100%;
+    width: 33%;
+    border-width: 0 10px 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.container-levo-gore > div:nth-child(3){
+
+    float: right;
+
+    height: 100%;
+    width: 34%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* container so 3 div na najlevo , i container za sredina  */
+
+.container-levo-dole-levo{
+
+    width: 15%;
+    height: 100%;
+
+    float: left;
+
+    border-width: 0 10px 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.container-levo-dole-desno{
+
+    width: 85%;
+    height: 100%;
+
+    float: right;
+
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+/* dodeluvanje na sredina golemini */
+.container-levo-dole-desno > div:nth-child(1){
+
+    width: 100%;
+    height: 100%;
+
+    float: center;
+
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* container za najlevite 3 belo belo zolto */
+
+.container-levo-dole-levo > div:nth-child(1){
+
+    float: top;
+
+    height: 25%;
+    width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.container-levo-dole-levo > div:nth-child(2){
+
+    float: center;
+
+    height: 40%;
+    width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.container-levo-dole-levo > div:nth-child(3){
+
+    float: bottom;
+
+    height: 35%;
+    width: 100%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* vo sredina 2 dela */
+
+.sredina-top{
+
+    width: 100%;
+    height: 60%;
+
+    float: top;
+
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.sredina-bottom{
+
+    width: 100%;
+    height: 40%;
+
+    float: bottom;
+
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* sredina top so crvenata golema kocka  */
+
+.sredina-top > div:nth-child(1){
+
+    float: left;
+
+    height: 100%;
+    width: 60%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+
+}
+
+/* od roditelot zima 100% golemina */
+.crvena-golema-kocka > div:nth-child(1){
+
+    float: left;
+    height: 100%;
+    width: 100%;
+    border-width: 0 10px 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* pokraj crvenata kocka */
+/* zolta kocka */
+
+.sredina-top > div:nth-child(2){
+
+    float: right;
+
+    height: 100%;
+    width: 40%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+
+}
+
+.sredina-top-desno> div:nth-child(1){
+
+    float: top;
+
+    height: 50%;
+    width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.sredina-top-desno> div:nth-child(2){
+
+    float: top;
+
+    height: 50%;
+    width: 100%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.dve-spoeni >  div:nth-child(1){
+
+    float: left;
+
+    height: 100%;
+    width: 50%;
+    border-width: 0 5px 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.dve-spoeni >  div:nth-child(2){
+
+    float: right;
+
+    height: 100%;
+    width: 50%;
+    border-width: 0 0 0 5px;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* dole sredina so 2 crni kocki  */
+
+.sredina-bottom > div:nth-child(1){
+
+    float: left;
+
+    height: 100%;
+    width: 35%;
+    border-width: 0 10px 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.sredina-bottom > div:nth-child(2){
+
+    float: right;
+
+    height: 100%;
+    width: 65%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* levata crna kocka */
+
+.leva-crna > div:nth-child(1){
+
+    float: top;
+
+    height: 65%;
+    width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.leva-crna > div:nth-child(2){
+
+    float: bottom;
+
+    height: 35%;
+    width: 100%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* za pomala crna kocka , plavata i dolnata dolga */
+
+.desna-crna > div:nth-child(1){
+
+    float: top;
+
+    height: 80%;
+    width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.desna-crna > div:nth-child(2){
+
+    float: bottom;
+
+    height: 20%;
+    width: 100%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+/* za pomalata crna kocka */
+
+.pomala-crna > div:nth-child(1){
+
+    float: left;
+
+    height: 100%;
+    width: 45%;
+    border-width: 0 10px 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.crna > div:nth-child(1){
+
+    float: top;
+
+    height: 40%;
+    width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.crna > div:nth-child(2){
+
+    float: center;
+
+    height: 40%;
+    width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.crna > div:nth-child(3){
+
+    float: bottom;
+
+    height: 20%;
+    width: 100%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+
+/* za plavata */
+.pomala-crna > div:nth-child(2){
+
+    float: right;
+
+    height: 100%;
+    width: 55%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.desno-od-crnite > div:nth-child(1){
+
+    float: top;
+
+    height: 30%;
+    width: 100%;
+    border-width: 0 0 10px 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.desno-od-crnite > div:nth-child(2){
+
+    float: bottom;
+
+    height: 70%;
+    width: 100%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
+
+.pod-pomala-crna > div:nth-child(1){
+
+    float: center;
+
+    height: 100%;
+    width: 100%;
+    border-width: 0 0 0 0;
+    border-style: solid;
+    border-color: black;
+
+}
